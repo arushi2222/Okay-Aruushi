@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research | Arushi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="index.html">Arushi</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="research.html" class="active">Research</a>
+          <a href="projects.html">Projects</a>
+          <a href="about.html">About</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+          <span class="theme-toggle__icon">☀︎</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="container about-intro">
+        <p class="eyebrow">Research Library</p>
+        <h1>A curated collection of ideas, frameworks, and critiques.</h1>
+        <p class="page-lead">
+          Browse by theme, search by topic, and follow the threads across business, finance,
+          economics, and technology.
+        </p>
+        <div class="contact-strip" aria-label="Social links">
+          <a class="contact-pill" href="https://www.instagram.com/okayaruushi" target="_blank" rel="noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i>Instagram</a>
+          <a class="contact-pill" href="https://www.linkedin.com/in/arushikabra21" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in" aria-hidden="true"></i>LinkedIn</a>
+          <a class="contact-pill" href="mailto:arushikabra21@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
+        </div>
+      </section>
+
+      <section class="container research-toolbar">
+        <label class="search-box" for="search-input">
+          <span>Search the knowledge base</span>
+          <input id="search-input" type="search" placeholder="Search topics, companies, or concepts" />
+        </label>
+        <div class="filter-row" aria-label="Category filters">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="Strategy">Strategy</button>
+          <button class="chip" data-filter="Finance">Finance</button>
+          <button class="chip" data-filter="Economics">Economics</button>
+          <button class="chip" data-filter="Technology">Technology</button>
+        </div>
+      </section>
+
+      <section class="container card-grid card-grid--2" id="research-list">
+        <article class="card card--plain" data-category="Strategy" data-search="strategy durable advantage capital allocation">
+          <div class="card__meta">Business Strategy · 8 min read</div>
+          <h3>What durable strategy looks like in a noisy market</h3>
+          <p>A framework for thinking about advantage, focus, and the discipline of resisting distraction.</p>
+          <a href="article.html">Read article</a>
+        </article>
+        <article class="card card--plain" data-category="Finance" data-search="finance capital discipline valuation">
+          <div class="card__meta">Finance · 6 min read</div>
+          <h3>Capital discipline is a competitive advantage</h3>
+          <p>Why the most interesting businesses are often defined less by growth than by the quality of decisions.</p>
+          <a href="article.html">Read article</a>
+        </article>
+        <article class="card card--plain" data-category="Economics" data-search="economics incentives institutions markets">
+          <div class="card__meta">Economics · 7 min read</div>
+          <h3>Markets, incentives, and the illusion of neutrality</h3>
+          <p>An exploration of how incentives shape outcomes more powerfully than rhetoric ever can.</p>
+          <a href="article.html">Read article</a>
+        </article>
+        <article class="card card--plain" data-category="Technology" data-search="technology ai judgment hype">
+          <div class="card__meta">AI & Technology · 10 min read</div>
+          <h3>Understanding AI beyond hype: where judgment still matters</h3>
+          <p>A calmer view of AI that focuses on incentives, limitations, and the enduring importance of human judgment.</p>
+          <a href="article.html">Read article</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <p>© 2026 Arushi. Built to think deeply and share clearly.</p>
+        <div class="footer-links" aria-label="Contact links">
+          <a href="https://www.instagram.com/okayaruushi" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.linkedin.com/in/arushikabra21" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:arushikabra21@gmail.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
